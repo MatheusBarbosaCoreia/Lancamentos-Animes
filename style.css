@@ -33,31 +33,24 @@ header h1{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-bottom: 10vw;
+    padding-bottom: 20vw;
     border-radius: 10px;
 }
 
-#imagem1{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 10vw;
-    border-radius: 10px;  
+#imagem1 > p,#imagem2> p,#imagem3 > p,#imagem4 > p,#imagem5 > p,#imagem6 > p,#imagem7 > p,#imagem8>p{
+    background-color: rgba(104, 102, 102, 0.534);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin-left: 1vw;
+    margin-right : 1vw;
+    border-radius: 10px; 
 }
 #imagem1{
     background-image: url(imagens/1.jpeg);
     box-shadow: 0px 4px 11px 5px rgba(240, 231, 109, 0.568);
 }
 
-#imagem1 > p{
-    background-color: rgba(104, 102, 102, 0.534);
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    margin-left: 1vw;
-    margin-right: 40vw;
-    border-radius: 10px;    
-}
 .video{
     position: relative;
     width: 100%;
@@ -83,136 +76,33 @@ header h1{
     box-shadow: 0px 4px 11px 5px rgba(240, 109, 109, 0.568);
 }
 
-#imagem2 > p{
-    background-color: rgba(104, 102, 102, 0.534);
-    font-family: 'Sriracha', cursive;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    margin-left: 30vw;
-    margin-right: 30vw;
-    font-size: 1.5vw;
-    border-radius: 10px;
-    
-}
 #imagem3{
     background-image: url(imagens/3.png);
     box-shadow: 0px 4px 11px 5px rgba(109, 133, 240, 0.568);
 }
 
-#imagem3 > p{
-    background-color: rgba(104, 102, 102, 0.534);
-    font-family: 'Sriracha', cursive;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    margin-left: 5vw;
-    margin-right: 60vw;
-    font-size: 1.5vw;
-    border-radius: 10px;
-}
 
 #imagem4{
     background-image: url(imagens/4.jpg);
     box-shadow: 0px 4px 11px 5px rgba(240, 109, 109, 0.568);
 }
-
-#imagem4 > p{
-    background-color: rgba(104, 102, 102, 0.534);
-    font-family: 'Sriracha', cursive;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    margin-left: 60vw;
-    margin-right: 5vw;
-    font-size: 1.5vw;
-    border-radius: 10px;
-}
-
 #imagem5{
     background-image: url(imagens/5.jpeg);
-    padding-top: 10vw;
-    padding-bottom: 20vw;
     box-shadow: 0px 4px 11px 5px rgba(50, 52, 66, 0.568);
 }
 
-#imagem5 > p{
-    background-color: rgba(104, 102, 102, 0.534);
-    font-family: 'Sriracha', cursive;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    font-size: 1.5vw;
-    border-radius: 10px;
-}
 #imagem6{
     background-image: url(imagens/6.jpg);
-    padding-top: 10vw;
-    padding-bottom: 40vw;
-    position: relative;
     box-shadow: 0px 4px 11px 5px rgba(36, 35, 29, 0.568);
 }
 
-#imagem6 > p{
-    position: absolute;
-    top: 35vw;
-
-    background-color: rgba(104, 102, 102, 0.534);
-    font-family: 'Sriracha', cursive;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 10px;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    font-size: 1.5vw;
-    border-radius: 10px;
-}
 #imagem7{
     background-image: url(imagens/7.PNG);
-    padding-top: 10vw;
-    padding-bottom: 40vw;
-    position: relative;
     box-shadow: 0px 4px 11px 5px rgba(240, 231, 109, 0.568);
 }
 
-#imagem7 > p{
-    position: absolute;
-    top: 2vw;
-    
-    background-color: rgba(104, 102, 102, 0.534);
-    font-family: 'Sriracha', cursive;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 10px;
-    margin-left: 55vw;
-    margin-right: 2vw;
-    font-size: 1.5vw;
-    border-radius: 10px;
-}
 #imagem8{
-    background-image: url(imagens/8.PNG);
-    padding-top: 10vw;
-    padding-bottom: 40vw;
-    position: relative;
+    background-image: url(imagens/8.png);
     box-shadow: 0px 4px 11px 5px rgba(240, 231, 109, 0.568);
 }
 
-#imagem8 > p{
-    position: absolute;
-    top: 28vw;
-
-    background-color: rgba(104, 102, 102, 0.534);
-    font-family: 'Sriracha', cursive;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 10px;
-    margin-left: 35vw;
-    margin-right: 20vw;
-    font-size: 1.5vw;
-    border-radius: 10px;
-}
