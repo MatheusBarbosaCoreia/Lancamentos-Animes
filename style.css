@@ -3,6 +3,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: rgb(39, 35, 35);
 }
 
 main {
@@ -15,6 +16,7 @@ main {
     padding-right: 20px;
     box-shadow: 0px 4px 11px 5px rgb(10 10 10 / 58%);
     border-radius: 10px;
+    background-color: rgb(39, 37, 37);
 }
 
 
@@ -25,32 +27,8 @@ header h1{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    box-shadow: 0px 4px 11px 5px rgba(109, 176, 240, 0.568);
+    box-shadow: 0px 1px 6px 3px rgba(109, 176, 240, 0.568);
 }
-
-
-#imagem1,#imagem2,#imagem3,#imagem4,#imagem5,#imagem6,#imagem7,#imagem8{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding-bottom: 20vw;
-    border-radius: 10px;
-}
-
-#imagem1 > p,#imagem2> p,#imagem3 > p,#imagem4 > p,#imagem5 > p,#imagem6 > p,#imagem7 > p,#imagem8>p{
-    background-color: rgba(104, 102, 102, 0.534);
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    margin-left: 1vw;
-    margin-right : 1vw;
-    border-radius: 10px; 
-}
-#imagem1{
-    background-image: url(imagens/1.jpeg);
-    box-shadow: 0px 4px 11px 5px rgba(240, 231, 109, 0.568);
-}
-
 .video{
     position: relative;
     width: 100%;
@@ -71,29 +49,92 @@ header h1{
     border-radius: 10px;
 }
 
+
+#imagem1,#imagem2,#imagem3,#imagem4,#imagem5,#imagem6,#imagem7,#imagem8,#imagem9{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 20vw;
+    border-radius: 10px;
+}
+p{
+    color: white;
+}
+#imagem1 > p,#imagem2> p,#imagem3 > p,#imagem4 > p,#imagem5 > p,#imagem6 > p,#imagem7 > p,#imagem8>p, #imagem9>p{
+    background-color: rgba(104, 102, 102, 0.534);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin-left: 1vw;
+    margin-right : 1vw;
+    border-radius: 10px; 
+}
+
+
+#um > h2{
+    background-image: linear-gradient(to bottom, rgb(247, 247, 82),rgb(255, 255, 255));
+    border-radius: 5px;
+    text-align: center;
+}
+#imagem1{
+    background-image: url(imagens/1.jpeg);
+    box-shadow: 0px 4px 11px 5px rgba(240, 231, 109, 0.568);
+}
+
+#dois > h2{
+    background-image: linear-gradient(to bottom, rgb(247, 82, 82),rgb(19, 15, 15));
+    border-radius: 5px;
+    text-align: center;
+}
 #imagem2{
     background-image: url(imagens/2.png);
     box-shadow: 0px 4px 11px 5px rgba(240, 109, 109, 0.568);
 }
 
+#tres > h2{
+    background-image: linear-gradient(to bottom, rgb(82, 85, 247),rgb(251, 253, 99));
+    border-radius: 5px;
+    text-align: center;
+}
 #imagem3{
     background-image: url(imagens/3.png);
     box-shadow: 0px 4px 11px 5px rgba(109, 133, 240, 0.568);
 }
 
-
+#quatro > h2{
+    background-image: linear-gradient(to bottom, rgb(247, 82, 82),rgb(27, 27, 25));
+    border-radius: 5px;
+    text-align: center;
+}
 #imagem4{
     background-image: url(imagens/4.jpg);
     box-shadow: 0px 4px 11px 5px rgba(240, 109, 109, 0.568);
+}
+
+#cinco > h2{
+    background-image: linear-gradient(to bottom, rgb(82, 195, 247),rgb(247, 247, 247));
+    border-radius: 5px;
+    text-align: center;
 }
 #imagem5{
     background-image: url(imagens/5.jpeg);
     box-shadow: 0px 4px 11px 5px rgba(50, 52, 66, 0.568);
 }
 
+#seis > h2{
+    background-image: linear-gradient(to bottom, rgb(241, 54, 101),rgb(91, 5, 189));
+    border-radius: 5px;
+    text-align: center;
+}
 #imagem6{
     background-image: url(imagens/6.jpg);
     box-shadow: 0px 4px 11px 5px rgba(36, 35, 29, 0.568);
+}
+
+#sete > h2{
+    background-image: linear-gradient(to bottom, rgb(229, 241, 54),rgb(5, 69, 189));
+    border-radius: 5px;
+    text-align: center;
 }
 
 #imagem7{
@@ -101,8 +142,22 @@ header h1{
     box-shadow: 0px 4px 11px 5px rgba(240, 231, 109, 0.568);
 }
 
+#oito > h2{
+    background-image: linear-gradient(to bottom, rgb(229, 241, 54),rgb(36, 37, 39));
+    border-radius: 5px;
+    text-align: center;
+}
 #imagem8{
     background-image: url(imagens/8.png);
     box-shadow: 0px 4px 11px 5px rgba(240, 231, 109, 0.568);
+}
+#nove > h2{
+    background-image: linear-gradient(to bottom, rgb(54, 135, 241),rgb(36, 37, 39));
+    border-radius: 5px;
+    text-align: center;
+}
+#imagem9{
+    background-image: url(imagens/9.jpeg);
+    box-shadow: 0px 4px 11px 5px rgba(36, 35, 29, 0.568);
 }
 
