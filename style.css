@@ -75,89 +75,89 @@ p{
     background-image: linear-gradient(to bottom, rgb(247, 247, 82),rgb(255, 255, 255));
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0px 0px 5px 2px rgba(240, 231, 109, 0.568);
 }
 #imagem1{
     background-image: url(imagens/1.jpeg);
-    box-shadow: 0px 4px 11px 5px rgba(240, 231, 109, 0.568);
 }
 
 #dois > h2{
     background-image: linear-gradient(to bottom, rgb(247, 82, 82),rgb(19, 15, 15));
     border-radius: 5px;
     text-align: center;
+        box-shadow: 0px 0px 5px 2px rgba(240, 109, 109, 0.568);
 }
 #imagem2{
     background-image: url(imagens/2.png);
-    box-shadow: 0px 4px 11px 5px rgba(240, 109, 109, 0.568);
 }
 
 #tres > h2{
     background-image: linear-gradient(to bottom, rgb(82, 85, 247),rgb(251, 253, 99));
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0px 0px 5px 2px rgba(109, 133, 240, 0.568);
 }
 #imagem3{
     background-image: url(imagens/3.png);
-    box-shadow: 0px 4px 11px 5px rgba(109, 133, 240, 0.568);
 }
 
 #quatro > h2{
     background-image: linear-gradient(to bottom, rgb(247, 82, 82),rgb(27, 27, 25));
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0px 0px 5px 2px rgba(240, 109, 109, 0.568);
 }
 #imagem4{
     background-image: url(imagens/4.jpg);
-    box-shadow: 0px 4px 11px 5px rgba(240, 109, 109, 0.568);
 }
 
 #cinco > h2{
     background-image: linear-gradient(to bottom, rgb(82, 195, 247),rgb(247, 247, 247));
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0px 0px 5px 2px rgba(108, 189, 255, 0.568);
 }
 #imagem5{
     background-image: url(imagens/5.jpeg);
-    box-shadow: 0px 4px 11px 5px rgba(50, 52, 66, 0.568);
 }
 
 #seis > h2{
     background-image: linear-gradient(to bottom, rgb(241, 54, 101),rgb(91, 5, 189));
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0px 0px 5px 2px rgb(205, 118, 240);
 }
 #imagem6{
     background-image: url(imagens/6.jpg);
-    box-shadow: 0px 4px 11px 5px rgba(36, 35, 29, 0.568);
 }
 
 #sete > h2{
     background-image: linear-gradient(to bottom, rgb(229, 241, 54),rgb(5, 69, 189));
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0px 0px 5px 2px rgba(240, 231, 109, 0.568);
 }
 
 #imagem7{
     background-image: url(imagens/7.PNG);
-    box-shadow: 0px 4px 11px 5px rgba(240, 231, 109, 0.568);
 }
 
 #oito > h2{
     background-image: linear-gradient(to bottom, rgb(229, 241, 54),rgb(36, 37, 39));
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0px 0px 5px 2px rgba(240, 231, 109, 0.568);
 }
 #imagem8{
     background-image: url(imagens/8.png);
-    box-shadow: 0px 4px 11px 5px rgba(240, 231, 109, 0.568);
 }
 #nove > h2{
     background-image: linear-gradient(to bottom, rgb(54, 135, 241),rgb(36, 37, 39));
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0px 0px 5px 2px rgba(24, 111, 211, 0.568);
 }
 #imagem9{
     background-image: url(imagens/9.jpeg);
-    box-shadow: 0px 4px 11px 5px rgba(36, 35, 29, 0.568);
 }
 
